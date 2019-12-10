@@ -5,7 +5,7 @@ import (
 
 	"github.com/blevesearch/bleve/analysis"
 	"github.com/blevesearch/bleve/registry"
-	"github.com/yanyiwu/gojieba"
+	"github.com/SpaxFiz/gojieba"
 )
 
 type JiebaTokenizer struct {

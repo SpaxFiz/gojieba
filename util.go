@@ -5,6 +5,8 @@ package gojieba
 */
 import "C"
 import (
+	_ "github.com/SpaxFiz/gojieba/deps/cppjieba"
+	_ "github.com/SpaxFiz/gojieba/deps/limonp"
 	"os"
 	"unsafe"
 )
