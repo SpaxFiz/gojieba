@@ -7,6 +7,7 @@ import "C"
 import (
 	_ "github.com/SpaxFiz/gojieba/deps/cppjieba"
 	_ "github.com/SpaxFiz/gojieba/deps/limonp"
+	_ "github.com/SpaxFiz/gojieba/dict"
 	"os"
 	"unsafe"
 )
